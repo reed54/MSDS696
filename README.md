@@ -1,4 +1,4 @@
-# MSDS69 Practicum 2, Fall of 2020
+# MSDS696 Practicum 2, Fall of 2020
 
 ## Project Summary
 
