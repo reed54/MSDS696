@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 ![Colorado Participated  in a U.S. General Election in 1876](https://commons.wikimedia.org/wiki/File:ElectoralCollege1876.svg)
@@ -9,6 +10,9 @@
 ### James D. Reed (jreed011@regis.edu)
 #### December 9, 2020
 
+=======
+# MSDS696 Practicum 2, Fall of 2020
+>>>>>>> ba6ae081bc9e2ec6fb19c97b37222e0cf14f17c2
 
 ## Project Summary
 

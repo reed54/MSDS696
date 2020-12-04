@@ -5,7 +5,9 @@ Cell: 303-570-4927
 
 # Project Proposal  - Explore Colorado Voting Patterns and Demographics
 
-I will use publicly available data from the Colorado state government and the US Census Beurea to characterize Colorado counties with regard to their demographic makeup and voting behavior.  The time period covered will nominally be from 2010 to 2020 including the pending general election to be held November 3, 2020.  This depends, of course, on the availability of election data after the election and before the date this project is due.   
+I will use publicly available data from the Colorado state government and the US Census Beurea to characterize Colorado counties with regard to their demographic makeup and voting behavior.  The time period covered will nominally be from 2010 to 2020 including the pending general election to be held November 3, 2020.  This depends, of course, on the availability of election data after the election and before the date this project is due.
+
+![Mountains]("img/Mountains2.jpg")  
 
 Colorado has eighty counties, most of which are considered conservative as evidenced by past elections.  This is not unlike riral areas in most states.  I hope to apply demographic data from the US Census to better understand the basis for this behavior.  
 
