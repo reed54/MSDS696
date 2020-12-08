@@ -137,11 +137,3 @@ High level description of steps performed for the analysis:
 ### Data and Project Summary
 
 
-```{python}
-val =  function(data) 
-for j in range(len(foo)):
-    ret = j**2
-
-
-
-```
