@@ -1,10 +1,11 @@
 
+
 ![Colorado Participated  in a U.S. General Election in 1876](https://commons.wikimedia.org/wiki/File:ElectoralCollege1876.svg)
 
 <a href="https://commons.wikimedia.org/wiki/File:ElectoralCollege1876.svg">AndyHogan14</a>, Public domain, via Wikimedia Commons
 
 
-# MSDS69 Practicum 2, Fall of 2020
+# MSDS696 Practicum 2, Fall of 2020
 ### James D. Reed (jreed011@regis.edu)
 #### December 9, 2020
 
@@ -36,7 +37,7 @@ I have learned  enough in my research to address the following questions:
 
 ## Data Inventory
 
-I have successfully collected the following datasets:.
+I have  collected the following datasets:.
 
 ### Colorado Voter Registration
 
@@ -48,11 +49,15 @@ I have successfully collected the following datasets:.
 
  ### U.S. Census 2010 Decennial and American Community Surveys
 
- 2) 	US Census (Census.gov).  Generally, I have focused on two sources here:  American Community Survey for 2019 (ACS19) and the decennial census for 2010 (Census2010).  This is a summary of the Data Frames I have created so far:  
+ 2) 	US Census (Census.gov).  Generally, I have focused on two sources here:  American Community Survey for 2019 (ACS19) and the decennial census for 2010 (Census2010).  Note, all of the datamentioned below is at Colorado-county level.   This is a summary of the Data Frames I have created so far:  
  a.	acs19-inc_df – Income distribution by county.
  b.	acs19-mar_df – marital status by county.  
  c.	acs19-pop_df – population distribution by county.  
  d.	acs19-pov_df – poverty by county.  
+ e. Census2010-gender 
+ f. Census2010-housing
+ g. Census2010-population
+
 
 ### Colorado Election Abstracts and Voter Registration
 
@@ -102,7 +107,7 @@ Following is a small excerpt of a data dictionary I made using a bit of RE and P
   b. Since 1902, Colorado has published  Abstracts of Election Results  and in more recent years this has included the votes cast for each candidate summarized by county.  
   c.  Voter Registration Statistics.  These are published on a monthly basis, again, by county and include active and non-active party registrants.  Additionally, these data are summarized by gender and age.  Registration data is broken down by congressional districts as well as counties.
 
-  4. I must acknowledge the skills I achieved usiing courses from both DataCamp and  Udemy.   I picked up  a clearer understanding of Pandas and Regular Expressioons (Udemy) and Seaborn graphics (DataCamp).
+  4. I should admit that the skills I achieved using courses from both DataCamp and  Udemy.   I picked up  a clearer understanding of Pandas and Regular Expressioons (Udemy) and Seaborn graphics (DataCamp).
 
 
 
@@ -118,22 +123,72 @@ Using the data artifacts I list above and Machine Learning, I hope to uncover th
 
 High level description of steps performed for the analysis:
 
+### Colorado's First Electoral College 
 
-### Methods
+Colorado is sometimes referred to  as the, Centennial State, because Colorado became a state one-hundered years after the founding of the United States.  Statehood came to Colorado on August 1, 1876.  Officials of the newly formed state gorvenment didn't have the budget or time to stage an election a mere four months away.  Instead they selected electors and delivered all three of their electoral votes for Rutherford B. Hays. 
+
+### Questions/Answers
+
+1.) Have voting patterns changed over the past 70 years?  
+
+Yes, between 1952 and 2000 (12  general elections), Colorado voted Democrat twice (1964 and 1992).  Since 2000, Colorado has voted Democrat in four out the last six general elections (2008, 2012, 2016, 2020).  I believe this has more to do with the changing economy and the political parties, themselves.
+
+2.) What is the demographic makeup of the active voting population?	
 
 
-#### Utilities and Techniques
+3.) Do economic shifts affect the way people vote?  
+
+If one views the last 68 years in the context of the economy, public policy (foreign and domestic) and catalog the good and the bad: growth, stagnation, inflation, wars and the fears of war, we see that voters react with their own belief of what is good for themselves and, by extension, the country.  Whether people, states or districts are red, or blue is a consequence of those beliefs.  It is not a given that any state will always be red or blue.
+
+### Colorado record in 37 General Elections
+
+Colorado has voted Republican 22 times and Democrat 14 times in the past 144 years.  Each election’s results are the consensus of what the nation should do.  Colorado, as the rest of the country, considers the choices and makes an informed decision.
 
 
-#### Models
+## Unsupervised Cluster Analysis of County Demographic and Voting History
+
+Following the example of Jason Brownlee, I have applied the following algorithms to the blended data frame:  
+ * Affinity Propagation
+ * Agglomerative Clustering  
+ * Birch – Balanced Iterative and Dynamically Cluster  
+ * DBSCAN
+ * K-Means
+ * Mean Shift
 
 
-### Results
+The test data for clustering uses two data sources::
+ - U.S. Census Decennial 2010  
+ - Colorado State Election Abstracts for General Election years 1952 – 1980 and 2020  
+
+Each county was assessed on the basis of its majority vote for each of the elections and encoded with a “1” for Republican majority and “0” for a Democratic majority.  
+
+ * As an example, the vector of this voting history for, say Adams County:
+
+| County |  M52  |  M56  |  M60  |  M64  |  M68  |  M72  |  M76  |  M80  |  M20  |
+--------|------|-------|-------|------|-------|------|-------|-------|------|------|
+|Adams   |      1  |    1      |      1    |     0    |     0     |   1     |  0        |  1     | 0 |
+
 
 ### Lessons Learned
 
-### Next Steps
+ * Census API - not as hard as I once thought it would be.  Much better not to change the variable names but to make a data dictionary, instead.
 
-### Data and Project Summary
+ * PANDAS -  Finally, I have a handle on how to slice and update a Pandas dataframe and series.  Also, the use of indices and _groupby_.
 
+ * Counties of Colorado and their designations: Frontier, Rural, Urban and Suburban.
+
+ * FIPS codes and where to get them.    
+
+ * GEOPANDAS - makes the process of merging demographic data and geo data fairly simple.
+
+
+### Special Thanks to 
+
+####  my darling wife, Helen
+
+She helped me crosscheck data tables made from PDF Abstracts and kept me going with cups of coffee and tea.
+
+#### Professor Michael Busch
+
+Thanks for being a good sounding board for my technical questions and concerns.
 

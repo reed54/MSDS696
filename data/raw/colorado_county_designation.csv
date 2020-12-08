@@ -1,0 +1,65 @@
+county,city,designation
+Adams,Brighton,Urban
+Arapahoe,Littleton,Urban
+Boulder,Boulder,Urban
+Denver,Denver,Urban
+El Paso,Colorado Springs,Urban
+Jefferson,Golden,Urban
+Douglas,Castle Rock,Suburban
+Broomfield,Broomfield,Suburban
+Alamosa,Alamosa,Rural
+Chaffee,Salida,Rural
+Clear Creek,Georgetown,Rural
+Delta,Delta,Rural
+Eagle,Eagle,Rural
+Fremont,Canon City,Rural
+Garfield,Glenwood Springs,Rural
+Gilpin,Central City,Rural
+Gunnison,Gunnison,Rural
+La Plata,Durango,Rural
+Lake,Leadville,Rural
+Larimer,Fort Collins,Rural
+Mesa,Grand Junction,Rural
+Moffat,Craig,Rural
+Montezuma,Cortez,Rural
+Montrose,Montrose,Rural
+Morgan,Fort Morgan,Rural
+Pitkin,Aspen,Rural
+Pueblo,Pueblo,Rural
+Routt,Steamboat Springs,Rural
+San Miguel,Telluride,Rural
+Summit,Breckenridge,Rural
+Teller,Cripple Creek,Rural
+Weld,Greeley,Rural
+Archuleta,Pagosa Springs,Frontier
+Baca,Springfield,Frontier
+Bent,Las Animas,Frontier
+Cheyenne,Cheyenne Wells,Frontier
+Conejos,Conejos,Frontier
+Costilla,San Luis,Frontier
+Crowley,Ordway,Frontier
+Custer,Westcliffe,Frontier
+Dolores,Dove Creek,Frontier
+Elbert,Kiowa,Frontier
+Grand,Hot Sulphur Springs,Frontier
+Hinsdale,Lake City,Frontier
+Huerfano,Walsenburg,Frontier
+Jackson,Walden,Frontier
+Kiowa,Eads,Frontier
+Kit Carson,Burlington,Frontier
+Las Animas,Trinidad,Frontier
+Lincoln,Hugo,Frontier
+Logan,Sterling,Frontier
+Mineral,Creede,Frontier
+Otero,La Junta,Frontier
+Ouray,Ouray,Frontier
+Park,Fairplay,Frontier
+Phillips,Holyoke,Frontier
+Prowers,Lamar,Frontier
+Rio Blanco,Meeker,Frontier
+Rio Grande,Del Norte,Frontier
+Saguache,Saguache,Frontier
+San Juan,Silverton,Frontier
+Sedgwick,Julesburg,Frontier
+Washington,Akron,Frontier
+Yuma,Wray,Frontier
