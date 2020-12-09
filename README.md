@@ -163,9 +163,9 @@ Each county was assessed on the basis of its majority vote for each of the elect
 
  * As an example, the vector of this voting history for, say Adams County:
 
-| County |  M52  |  M56  |  M60  |  M64  |  M68  |  M72  |  M76  |  M80  |  M20  |
---------|------|-------|-------|------|-------|------|-------|-------|------|------|
-|Adams   |      1  |    1      |      1    |     0    |     0     |   1     |  0        |  1     | 0 |
+| County|  M52 |  M56  |  M60 |  M64 |  M68  |  M72 | M76 | M80 | M20  |
+--------|------|-------|------|------|-------|------|-----|-----|------|
+|Adams  |  1   |    1  |   1  |  0   |   0   |   1  |  0  |  1  | 0    |
 
 
 ### Lessons Learned
