@@ -1,6 +1,5 @@
 
-
-![Colorado Participated  in a U.S. General Election in 1876](https://commons.wikimedia.org/wiki/File:ElectoralCollege1876.svg)
+![Colorado Participated  in a U.S. General Election in 1876](https://upload.wikimedia.org/wikipedia/commons/7/77/ElectoralCollege1876.svg)
 
 <a href="https://commons.wikimedia.org/wiki/File:ElectoralCollege1876.svg">AndyHogan14</a>, Public domain, via Wikimedia Commons
 
